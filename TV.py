@@ -25,7 +25,8 @@ def setChannel(self,channel):
     if channel >= 1 and channel <= 120:
         self.channel = channel
 #Get Volumes
-
+def getVolume(self):
+    return self.volume
 #Set Volume
 
 #Channel Up
