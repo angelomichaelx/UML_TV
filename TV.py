@@ -29,16 +29,21 @@ def getVolume(self):
     return self.volume
 #Set Volume
 def setVolume(self,volume):
-        if volume>=1 and volume<=7:
-            self.volume=volume
+    if volume>=1 and volume<=7:
+        self.volume=volume
 #Channel Up
 def channelUp(self):
-     if self.channel<120:
-        self.channel+=1
-     else:
-        self.channel=1
+    if self.channel<120:
+       self.channel+=1
+    else:
+       self.channel=1
 
 #Channel Dowwn
+def channelDown(self):
+      if self.channel>1:
+       self.channel-=1
+      else:
+       self.channel=120
 
 #Volume Up
 
