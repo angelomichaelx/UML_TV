@@ -46,5 +46,9 @@ def channelDown(self):
        self.channel=120
 
 #Volume Up
-
+def volumelUp(self):
+      if self.channel<7:
+        self.channel+=1
+      else:
+        self.channel=1
 #Volume Down
