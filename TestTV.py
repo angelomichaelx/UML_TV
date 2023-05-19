@@ -1,3 +1,8 @@
-#import TV from TV.py
-from TvClass import TV
+#import TV from Tvclass.py file
+from tvClass import TV  
+
+
+
+
+
 
