@@ -21,8 +21,10 @@ def turnOff(self):
 def getChannel(self):
     return self.channel 
 #Set Channel 
-
-#Get Volume
+def setChannel(self,channel):
+    if channel >= 1 and channel <= 120:
+        self.channel = channel
+#Get Volumes
 
 #Set Volume
 
