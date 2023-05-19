@@ -18,7 +18,8 @@ def turnOn(self):
 def turnOff(self):
     self.power = False
 #Get Channel 
-
+def getChannel(self):
+    return self.channel 
 #Set Channel 
 
 #Get Volume
