@@ -4,7 +4,29 @@
 # Create TV class
 class TV:
 # constructor
-    def __init__(self, channel = 1, volume = 1, switch = False):
+    def __init__(self, channel = 1, volume = 1, power = False):
         self.channel = channel
         self.volume = volume
-        self.switch = switch
+        self.power = power
+
+#Methods
+
+#Turn On
+
+#Turn Off
+
+#Get Channel 
+
+#Set Channel 
+
+#Get Volume
+
+#Set Volume
+
+#Channel Up
+
+#Channel Dowwn
+
+#Volume Up
+
+#Volume Down
