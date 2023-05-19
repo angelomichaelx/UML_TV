@@ -12,7 +12,8 @@ class TV:
 #Methods
 
 #Turn On
-
+def turnOn(self):
+    self.power = True
 #Turn Off
 
 #Get Channel 
